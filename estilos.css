@@ -1,0 +1,165 @@
+body {
+    font-family: Roboto;
+    background: #E5E5E5;
+}
+
+.barra-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 612px;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    border-bottom: 1px solid #dbdbdb;
+    z-index: 1;
+}
+.barra-mobile img{
+    width: 103px;
+    height: 29px;
+}
+.barra-mobile ion-icon{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 612px;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    border-top: 1px solid #dbdbdb;
+    z-index: 1;
+}
+footer ion-icon{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.stories{
+    width: 612px;
+    height: 121px;
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.story{
+    width: 78px;
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+}
+.story img{
+    width: 56px;
+}
+.stories-background{
+    width: 64px;
+    height: 64px;
+    background-image: url("stories_background 1.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.story h1{
+    width: 58px;
+    height: 19px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #262626;
+    text-align: center;
+    margin-top: 5px;
+}
+ .box-1 ion-icon{
+     font-size: 20px;
+ }
+.box-1{
+    width: 612px;
+    height: 749px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: 65px;
+}
+.img-arroba img{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 15px;
+    left: 17px;
+}
+.img-arroba p{
+    width: 109px;
+    height: 21px;
+    font-weight: 500;
+    font-size: 14px;
+    position: absolute;
+    left: 64px;
+    top: 25px;
+}
+.tres-pontos{
+    position: absolute;
+    right: 18.5px;
+    top: 22px
+}
+.img-box{
+    width: 612px;
+    height: 612px;
+    position: absolute;
+    left: 0;
+    top: 61px;
+}
+.icones-esq{
+    width: 88.18px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 45px;
+    left: 17px;
+}
+.icones-dir{
+    position: absolute;
+    bottom: 40px;
+    right: 18px;
+}
+.likes img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 17px;
+    bottom: 14px;
+}
+.likes p{
+    width: 309px;
+    height: 21px;
+    font-weight: 300;
+    font-size: 14px;
+    position: absolute;
+    bottom: 9px;
+    left: 40px;
+}
+.forte{
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+}
